@@ -2,7 +2,6 @@ version: "3.3"
 services:
   urbit-umbrel:
     build: .
-    image: mopfelwinrux/urbit-umbrel:latest@sha256:ea23739f85ec1ad0540fd900c36113058b372dcc9f4dc038e1d689040d01b525
     ports:
       - "34343:34343"
       - "8090:8090"
